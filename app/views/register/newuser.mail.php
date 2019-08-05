@@ -1,6 +1,9 @@
 <p>
 Hi,<br>
 <br>
+<?php
+print_r($compact);
+?>
 We have recieved your request.<br>
 <br>
 Name: <?=$compact['message']['name']?><br>
