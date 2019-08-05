@@ -14,7 +14,7 @@ class RegisterController extends \lithium\action\Controller {
 	public function newuser(){
 		$message = $this->request->data;
 		$function = new Functions();
-		$function->sendEmailTo($message['email'],null,'register','newuser',,'New Register','support@ruchidoctor.com',MAIL_1,MAIL_2,null,null);
+		$function->sendEmailTo($message['email'],$message,'register','newuser','New Register','support@ruchidoctor.com',MAIL_1,MAIL_2,null,null);
 		Users::create()->save($message);
 		return $this->render(array('layout' => false));
 	}
