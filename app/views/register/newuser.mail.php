@@ -8,5 +8,7 @@ Email: <?=$message['email']?><br>
 Phone: <?=$message['phone']?><br>
 Subject: <?=$message['subject']?><br>
 Message: <?=$message['message']?><br>
-Date and time: <?=gmdate('Y-m-d H:i:s',time())?>
+<br>
+- Team Ruchi Doctor<br>
+Date and time: <?=gmdate('Y-m-d H:i:s',time())?><br>
 </p>
