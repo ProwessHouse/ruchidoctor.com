@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<?php 
+	if (!isset($_SERVER['HTTPS'])) {
+	header('Location: https://' . $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
+	exit;
+}
+?><html lang="en">
 
 <head>
   <!-- meta -->
@@ -104,8 +109,8 @@
         <div class="col-lg-7">
           <div class="about-descr">
 
-            <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-            <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+            <p class="p-heading">I'm Professional Business Coach, Trainer, Networker, Publisher, Singer, Curator having my own company Prowess.House.</p>
+            <p class="separator">I'm in business since 2006 and have trained 1000+ individuals including 15+ corporate clients. I have a professional marketing career in India's top Network marketing company.</p>
 
           </div>
 
@@ -125,48 +130,48 @@
           <div class="services-block">
 
             <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Art</span>
+            <p class="separator">I am a curator for Art in any form including paint, sculptrs etc.</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Publisher</span>
+            <p class="separator">Prowess.House is a publication company </p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Culture</span>
+            <p class="separator">I pomote culture  </p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Litreature</span>
+            <p class="separator">I am into writing blogs and creating useful podcast </p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Asthetics</span>
+            <p class="separator">What we do for it? </p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>Photography</span>
+            <p class="separator">I am a professional photographer </p>
 
           </div>
 
@@ -195,10 +200,10 @@
 
             <ul class="nav list-unstyled" id="portfolio-flters">
               <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".branding">branding</li>
-              <li class="filter" data-filter=".mockups">mockups</li>
-              <li class="filter" data-filter=".uikits">ui kits</li>
-              <li class="filter" data-filter=".webdesign">web design</li>
+              <li class="filter" data-filter=".branding">marketing</li>
+              <li class="filter" data-filter=".mockups">coaching</li>
+              <li class="filter" data-filter=".uikits">training</li>
+              <li class="filter" data-filter=".webdesign">public speaking</li>
               <li class="filter" data-filter=".photography">photography</li>
             </ul>
 
@@ -256,7 +261,7 @@
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>journal</h2>
+        <h2>blogs / podcast</h2>
       </div>
     </div>
 
@@ -332,10 +337,12 @@
               <h2 class="mb-30">GET IN TOUCH</h2>
 
               <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
-                <li><span>example@example.com</span></li>
+                <li><span>201, Upnishad Complex</span></li>
+                <li><span>Near Shreyas Railway Crossing</span></li>
+				<li><span>Manekbaug, Ahmedabad 380015</span></li>
+				<li><span>Gujarat India</span></li>
+                <li><span>+91 98795 78244</span></li>
+                <li><span>prowess.house.in@gmail.com</span></li>
               </ul>
 
             </div>
@@ -364,6 +371,13 @@
 
                 <div class="col-lg-12">
                   <div class="form-group">
+                    <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="phone" data-msg="Please enter a valid phone" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
                     <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                     <div class="validation"></div>
                   </div>
@@ -377,7 +391,7 @@
                 </div>
 
                 <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                  <input type="submit"  class="btn btn-defeault btn-send" value="Send message">
                 </div>
 
               </div>
@@ -406,17 +420,9 @@
 
       </div>
 
-      <p>&copy; Copyrights Folio. All rights reserved.</p>
+      <p>&copy; Copyrights Ruchi Doctor. All rights reserved.</p>
 
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+
 
     </div>
   </div>
