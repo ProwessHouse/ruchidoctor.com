@@ -12,8 +12,8 @@ Message: <?=$compact['message']?><br>
 <br>
 - Team Ruchi Doctor<br>
 <img src="https://ruchidoctor.com/images/logo-straight.png" width="250">
-
+<br>
 P.S. We shall be contacting you shortly.
-
+<br>
 Date and time: <?=gmdate('Y-m-d H:i:s',time())?><br>
 </p>
