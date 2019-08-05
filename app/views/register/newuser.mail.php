@@ -2,9 +2,6 @@
 <p>
 Hi,<br>
 <br>
-<?php
-print_r($compact);
-?>
 We have recieved your request.<br>
 <br>
 Name: <?=$compact['name']?><br>
@@ -14,7 +11,7 @@ Subject: <?=$compact['subject']?><br>
 Message: <?=$compact['message']?><br>
 <br>
 - Team Ruchi Doctor<br>
-<img src="https://ruchidoctor.com/images/logo.png" width="200">
+<img src="https://ruchidoctor.com/images/logo-straight.png" width="250">
 
 P.S. We shall be contacting you shortly.
 
