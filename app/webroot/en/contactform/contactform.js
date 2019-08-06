@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
-	console.log(str);
+//	console.log(str);
     var action = $(this).attr('action');
     if( ! action ) {
       action = '/register/newuser';
@@ -117,7 +117,6 @@ jQuery(document).ready(function($) {
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
-
       }
     });
     return false;
