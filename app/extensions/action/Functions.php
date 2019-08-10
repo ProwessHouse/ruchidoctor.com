@@ -273,7 +273,7 @@ class Functions extends \lithium\action\Controller {
 			}
 			$message->setBody($body,'text/html');
 			$mailer->send($message);
-//print_r($mailer->send($message));
+			//print_r(($message));
 	}
 
 
