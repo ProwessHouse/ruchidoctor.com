@@ -79,7 +79,7 @@ class BlogController extends \lithium\action\Controller {
 			'conditions'=>array('_id'=>$_id)
 		));
 		$blogs = Posts::find('all',array(
-			'order'=>array('DateTime'=>array('DESC'=>1))
+//			'order'=>array('DateTime'=>array('DESC'=>1))
 		));
 
 		return compact('blog','blogs');
