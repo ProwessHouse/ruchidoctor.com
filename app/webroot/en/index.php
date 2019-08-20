@@ -417,13 +417,8 @@
           <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
           <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
         </ul>
-
       </div>
-
       <p>&copy; Copyrights Ruchi Doctor. All rights reserved.</p>
-
-
-
     </div>
   </div>
   <!-- End section footer -->

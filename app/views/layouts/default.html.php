@@ -6,19 +6,48 @@
 	$pagestarttime = $mtime; 
 
 ?>
-<html>
+<html lang="en">
+
 <head>
-	<?php echo $this->html->charset();?>
-	<title> &gt; <?php echo MAIN_TITLE ?> &lt;</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<?php echo $this->html->link('Icon', null, ['type' => 'icon']); ?>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ruchi Doctor - Publisher, Coach, Trainer, Speaker, Marketer, Curator</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="/app/webroot/en/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="/app/webroot/en/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="/app/webroot/en/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="/app/webroot/en/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="/app/webroot/en/lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="/app/webroot/css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="/app/webroot/en/css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/app/webroot/images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
-<body class="container">
+<body>
    		<?php echo $this->_render('element', 'header', compact('pagetotaltime'));?>	
-		<div class="content">
+		<div class="container content">
 			<?php echo $this->content(); ?>
 		</div>
 <?php 
@@ -32,5 +61,20 @@
 		<?php echo $this->_render('element', 'footer', compact('pagetotaltime'));?>	
 
 
+
+  <!-- End section footer -->
+  <!-- JavaScript Libraries -->
+  <script src="/app/webroot/en/lib/jquery/jquery.min.js"></script>
+  <script src="/app/webroot/en/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="/app/webroot/en/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/app/webroot/en/lib/typed/typed.js"></script>
+  <script src="/app/webroot/en/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="/app/webroot/en/lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="/app/webroot/en/lib/isotope/isotope.pkgd.min.js"></script>
+
+
+  <!-- Template Main Javascript File -->
+  <script src="/app/webroot/js/main.js"></script>
 </body>
+
 </html>
