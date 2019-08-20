@@ -15,6 +15,10 @@
 		<input type="text" class="form-control" id="Title" name="Title" value="<?=$blog['Title']?>">
 		Sub Title:
 		<input type="text" class="form-control" id="SubTitle" name="SubTitle" value="<?=$blog['SubTitle']?>">
+		Category:
+		<input type="text" class="form-control" id="Category" name="Category" value="<?=$blog['Category']?>">
+		KeyWords:
+		<input type="text" class="form-control" id="KeyWords" name="KeyWords" value="<?=$blog['KeyWords']?>">
 		<script src="//cdn.ckeditor.com/4.5.11/full/ckeditor.js"></script>
 		Blog:
 		<textarea name="Content" cols="60" rows="8" class="ckeditor"><?=$posts['Content']?><?php echo $blog['Content']?></textarea>

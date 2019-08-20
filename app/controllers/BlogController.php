@@ -27,6 +27,8 @@ class BlogController extends \lithium\action\Controller {
 				'SubTitle'=>$this->request->data['SubTitle'],
 				'Content'=>$this->request->data['Content'],
 				'Status'=>$this->request->data['Status'],
+				'Category'=>$this->request->data['Category'],
+				'KeyWords'=>$this->request->data['KeyWords'],
 				'Author_id'=>$this->request->data['Author_id'],
 				'LikeCount'=>0,
 				'CommentCount'=>0,
@@ -92,6 +94,8 @@ class BlogController extends \lithium\action\Controller {
 				'SubTitle'=>$this->request->data['SubTitle'],
 				'Content'=>$this->request->data['Content'],
 				'Status'=>$this->request->data['Status'],
+				'Category'=>$this->request->data['Category'],
+				'KeyWords'=>$this->request->data['KeyWords'],
 				'Author_id'=>$this->request->data['Author_id'],
 				'LikeCount'=>$this->request->data['LikeCount'],
 				'CommentCount'=>$this->request->data['CommentCount'],
@@ -112,6 +116,6 @@ class BlogController extends \lithium\action\Controller {
 		
 		return compact('Post','authors','blogs');
 		
-		
 	}
 }
+?>

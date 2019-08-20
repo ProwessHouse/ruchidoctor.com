@@ -14,6 +14,11 @@
 		<input type="text" class="form-control" id="Title" name="Title">
 		Sub Title:
 		<input type="text" class="form-control" id="SubTitle" name="SubTitle">
+		Category:
+		<input type="text" class="form-control" id="Category" name="Category">
+		KeyWords:
+		<input type="text" class="form-control" id="KeyWords" name="KeyWords">
+
 		<script src="//cdn.ckeditor.com/4.5.11/full/ckeditor.js"></script>
 		Blog:
 		<textarea name="Content" cols="60" rows="8" class="ckeditor"><?=$posts['Content']?></textarea>
