@@ -16,7 +16,7 @@
 		<?php foreach($blogs as $blog){?>
 			<tr>
 				<td width="50%"><a href="/blog/v/<?=str_ireplace(" ","+",$blog['Title']);?>/<?=$blog['_id']?>"><?=$blog['Title']?></a><br><small><?=$blog['SubTitle']?></small></th>
-				<td width="10%"><small><?=date('YMd H:i:s', $blog['DateTime']->sec)?></small></th>
+				<td width="10%"><small><?=date('Y-M-d H:i:s', $blog['DateTime']->sec)?></small></th>
 				<td width="10%"><?=$blog['Status']?></th>
 				<td width="10%"><?=$blog['LikeCount']?></th>
 				<td width="10%"><?=$blog['CommentCount']?></th>
