@@ -12,17 +12,6 @@ use lithium\data\Connections;
 //	'setSlaveOkay' => true,
 //	'readPreference' => Mongo::RP_NEAREST	
  ));
-/*
- Connections::add('Distributor', array(
- 	'type' => CONNECTIONDP_TYPE,
- 	'host' => array(CONNECTIONDP,
-		),
-//	'replicaSet' => true,
- 'database' => CONNECTIONDP_DB,
-	'login' => CONNECTIONDP_USER,
-	'password' => CONNECTIONDP_PASS,	
-//	'setSlaveOkay' => true,
-//	'readPreference' => Mongo::RP_NEAREST	
- ));
-*/
+ 
+
 ?>

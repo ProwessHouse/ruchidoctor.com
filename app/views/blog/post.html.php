@@ -3,7 +3,7 @@
 		<h1>Edit this Blog <small><a href="/blog/create/">Create</a></small> <small><a href="/blog/edit/">Edit</a></small></h1>
 			
 	</div>
-	<form action="/blog/update" method="post" enctype="multipart/form-data" name="create" id="create">
+	<form action="/blog/update" method="post" enctype="multipart/form-data" name="update" id="update">
 		<input type="hidden" name="_id" id="_id" value="<?=$blog['_id']?>">
 		Author:
 		<select name="Author_id" id="Author_id" class="form-control">
