@@ -1,7 +1,8 @@
 
 
- <div class="block">
- <h1 class="sz4 margin" style="border-bottom:10px solid black ">Ruchi Doctor</h1>
+ <div class="block" style="border-bottom:10px solid black;margin-bottom:10px ">
+ <h1 class="sz4 margin" >Ruchi Doctor</h1>
+ <p class="sz2 margin Share cs3"><strong>CEO @ Prowess.House, Hitarth IT Services Pvt. Ltd.</strong><br><span class="szhalf"><small>Publisher, Curator, Artist, Coach, Trainer </small></span></p>
  </div>
  <div class="row block">
   <div class="col-50">
