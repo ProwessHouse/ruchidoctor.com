@@ -25,6 +25,7 @@
     </div>
   </div>
  </div>
+ <!--
  <h1 class="sz4 margin" >Books Published</h1>
  <div class="row padding margin">
  <div class="col-30">
@@ -37,3 +38,4 @@
   <img src="/img/MakeTheWorld Listen To You.jpg" width="100%">
  </div>
  </div>
+-->
