@@ -1,0 +1,30 @@
+Authors
+	_id
+	Name
+	Avatar
+	Description
+
+Posts
+	_id
+	DateTime
+	Title
+	SubTitle
+	Content
+	Status
+	
+	Author_id
+	LikeCount
+	CommentCount
+	
+Comments
+	_id
+	Post_id
+	Count
+	Name
+	IP
+	DateTime
+	Comment
+	Approved
+	LikeCount
+	
+	

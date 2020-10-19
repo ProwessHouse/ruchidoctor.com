@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php 
-	if (!isset($_SERVER['HTTPS'])) {
-	header('Location: https://' . $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
-	exit;
-}
+//	if (!isset($_SERVER['HTTPS'])) {
+//	header('Location: https://' . $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
+//	exit;
+//}
 ?><html lang="en">
 
 <head>
@@ -77,7 +77,7 @@
     <div class="container">
       <div class="header-content">
         <h1>I'm <span class="typed"></span></h1>
-        <p>public speaker, curator, publisher</p>
+        <p>home, public speaker, curator, publisher</p>
 
         <ul class="list-unstyled list-social">
           <li><a href="#"><i class="ion-social-facebook"></i></a></li>
