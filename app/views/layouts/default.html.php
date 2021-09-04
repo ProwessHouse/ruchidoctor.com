@@ -24,6 +24,7 @@
 <body>
 		<div class="page">
   <div class="page-content">
+		<?php echo $this->_render('element', 'header');?>	
   <?php echo $this->content(); ?>
 <?php 
 	$mtime = microtime();
